@@ -6,7 +6,7 @@ int M = Convert.ToInt32(Console.ReadLine());
 int count = 0;
 for (int i = 0; i < M; i++)
 {
-        Console.WriteLine ($"Ведите {i+1} число");
+        Console.WriteLine ($"Введите {i+1} число");
         int n = Convert.ToInt32(Console.ReadLine());
         if (n > 0)
             count +=1;
